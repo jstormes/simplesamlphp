@@ -38,6 +38,6 @@
     "support": {
         "issues": "https://github.com/simplesamlphp/simplesamlphp/issues",
         "source": "https://github.com/simplesamlphp/simplesamlphp",
-        "zf2-issues": "https://github.com/jstormes/simplesamlphp/issues",
+        "zf2-issues": "https://github.com/jstormes/simplesamlphp/issues"
     }
 }
