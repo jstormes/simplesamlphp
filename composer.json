@@ -21,9 +21,13 @@
     ],
     "autoload": {
         "psr-0": {
-            "SimpleSAML": "lib/"
+            "SimpleSAMLphp": "lib/"
         },
-        "files": ["lib/_autoload_modules.php"]
+        "psr-4": {
+        	"JStormes\\SimpleSAMLphp\\": "src/SimpleSAMLphp"
+        },
+        "files": ["lib/_autoload_modules.php"],
+        "classmap": ["Module.php"]
     },
     "require": {
         "php": ">=5.3",
