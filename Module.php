@@ -28,8 +28,8 @@ class Module
          */
         // don't redirect if we are currently in the SimpleSAMLphp library.
         if (strpos($_SERVER['REQUEST_URI'],"/saml/")!==0) {
-            //$as = new \SimpleSAML_Auth_Simple('example-userpass'); 
-            $as = new \SimpleSAML_Auth_Simple('example-zf2sql'); 
+            $as = new \SimpleSAML_Auth_Simple('example-userpass'); 
+            //$as = new \SimpleSAML_Auth_Simple('example-zf2sql'); 
             $as->requireAuth();
             $attributes = $as->getAttributes();
         }
